@@ -1,4 +1,4 @@
-import { TextInput } from "@repo/ui/textInput";
+import { TextInput } from "@repo/ui/input";
 
  
  export default function RoomId (){
