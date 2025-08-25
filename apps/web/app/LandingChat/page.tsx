@@ -8,7 +8,7 @@ export default function Home (){
   const router = useRouter();
 
   return (
-    <div  style={{
+    <div style={{
       height : "100vh",
       width : "100vw",
       background : "black",
@@ -16,14 +16,16 @@ export default function Home (){
       justifyItems : "center",
       display : "flex"
     }}>
-      <div  style={{
+      <div style={{
         display : "flex",
         justifyContent : "center",
         flexDirection : "column"
       }}>
+        
+        <TextInput  placeholder={"Room"}></TextInput>
         <button onClick={()=>{
-            router.push('/LandingChat')
-        }}>Take Me To Chat</button>
+            router.push("/chat/123")
+        }}>JOIN ROOM</button>
       </div>
       
     </div>

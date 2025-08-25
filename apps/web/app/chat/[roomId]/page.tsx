@@ -1,4 +1,5 @@
 import { TextInput } from "@repo/ui/input";
+import { Button } from "@repo/ui/button";
 
  
  export default function RoomId (){
@@ -14,6 +15,7 @@ import { TextInput } from "@repo/ui/input";
         </div>
         <div>
             <TextInput placeholder={"Send Messages...."}></TextInput>
+            <Button children={"SEND"} appName={"Send"}></Button>
         </div>
         </div>
     )
